@@ -31,3 +31,9 @@ sudoku
 ```
 
 * Newlines and spaces will be ignored by `xargs`.
+
+You can also read from a file like [`some_sudoku.txt`](./some_sudoku.txt):
+
+```console
+$ xargs ./sudokell +RTS -N8 -RTS < some_sudoku.txt
+```
